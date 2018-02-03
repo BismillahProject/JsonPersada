@@ -29,7 +29,7 @@ namespace Persada.Fr.Model.Master
 
         public int ROW_STATUS { get; set; }
 
-        //public virtual TOURIS_TM_MENU TOURIS_TM_MENU { get; set; }
+        public virtual TOURIS_TM_MENU TOURIS_TM_MENU { get; set; }
 
         public virtual TOURIS_TM_ROLE TOURIS_TM_ROLE { get; set; }
     }

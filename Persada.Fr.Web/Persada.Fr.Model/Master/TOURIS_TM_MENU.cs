@@ -8,10 +8,10 @@ namespace Persada.Fr.Model.Master
 
     public partial class TOURIS_TM_MENU
     {
-        //public TOURIS_TM_MENU()
-        //{
-        //    TOURIS_TM_ROLE_MENU = new HashSet<TOURIS_TM_ROLE_MENU>();
-        //}
+        public TOURIS_TM_MENU()
+        {
+            TOURIS_TM_ROLE_MENU = new HashSet<TOURIS_TM_ROLE_MENU>();
+        }
 
         public int ID { get; set; }
 
@@ -37,7 +37,7 @@ namespace Persada.Fr.Model.Master
         public string LAST_MODIFIED_BY { get; set; }
 
         public int ROW_STATUS { get; set; }
-        
-        //public virtual ICollection<TOURIS_TM_ROLE_MENU> TOURIS_TM_ROLE_MENU { get; set; }
+
+        public virtual ICollection<TOURIS_TM_ROLE_MENU> TOURIS_TM_ROLE_MENU { get; set; }
     }
 }
